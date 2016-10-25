@@ -1,9 +1,16 @@
 @import 'normalize.css';
+
 @import 'styles/base/variables';
+@import 'styles/base/mixins';
+
 @import 'styles/base/elements';
-@import 'styles/base/image';
 @import 'styles/base/layout';
 @import 'styles/base/theme';
 @import 'styles/base/type';
 @import 'styles/base/util';
+
+@import 'styles/base/image';
+
+@import 'styles/components/button';
 @import 'styles/components/card';
+

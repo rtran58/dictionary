@@ -1,6 +1,8 @@
 import React, { PropTypes, Component } from 'react';
 import World from './World';
 import Card from './Card';
+import Button from './Button';
+import ButtonDemo from './ButtonDemo';
 
 export default class Home extends Component {
   render() {
@@ -57,6 +59,27 @@ export default class Home extends Component {
             <World />
           </Card>
         </section>
+        <section className="stripe">
+          <Card className="col--one-third text--center">
+            <p>Click does not do much...</p>
+            <Button label="Default" color="default" />
+            <Button label="Primary" color="primary" />
+            <Button label="Secondary" color="secondary" />
+            <Button label="Warning" color="warning" />
+            <Button label="Success" color="success" />
+            <Button label="Danger" color="danger" />
+          </Card>
+          <Card className="text--center">
+            <ButtonDemo
+              colors={['Secondary', 'Success', 'Danger', 'Warning']}
+              sizes={['large', 'medium', 'medium', 'small']}
+              icons={['coffee', 'cloud', 'flash', 'plugin']}
+              iconsOnly
+            />
+          </Card>
+        </section>
+
+
         <section className="stripe--slim back--gray">
           <Card plain className="col--full text--center white">
             <p>
