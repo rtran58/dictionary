@@ -35,21 +35,6 @@ export default class Home extends Component {
             </a>
           </nav>
         </section>
-        <section className="stripe">
-          <Card plain className="text--center">
-            <a href="https://leanpub.com/reactspeedcoding"
-              className="image__link">
-              <img width="200" src="img/reactspeed-cover-leanpub.jpg" />
-            </a>
-          </Card>
-          <Card plain className="col--half text--center">
-            <h1>Develop Awesome Apps</h1>
-            <p className="subtext">
-              Join 100s of readers learning
-              latest React ES6 concepts.
-            </p>
-          </Card>
-        </section>
         <section className="stripe back--default">
           <Card plain className="col--half text--center">
             <h1>Custom React Component</h1>
